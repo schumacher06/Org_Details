@@ -1,0 +1,7 @@
+git branch New_Branch
+git checkout New_Branch
+git push -u origin New_Branch
+git branch -av
+git merge New_Branch
+git branch -D New_Branch
+git push origin -delete New_Branch
